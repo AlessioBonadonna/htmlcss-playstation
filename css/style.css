@@ -10,6 +10,46 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.logo img {
+    width: 80px;
+    height: 40px;
+}
+header .my_nav_hover:hover {
+    color: var(--blue) !important;
+}
+.my_visible,
+.my_visible_none {
+    width: 10px;
+}
+.my_nav_hover:hover .my_visible {
+    display: none;
+}
+.my_visible_none {
+    display: none;
+}
+.my_nav_hover:hover .my_visible_none {
+    display: inline;
+}
+.my_dropdown_a {
+    text-decoration: none;
+}
+.my_dropdown_a:hover {
+    text-decoration: underline;
+}
+::marker {
+    color: var(--blue);
+}
+
+.lens {
+    height: 25px;
+    vertical-align: middle;
+}
+.my_btn_black:hover {
+    color: #fff;
+    border: 1px solid #fff !important;
+    outline: 2px solid black;
+}
 #jumbo-1{
         width: 100%;
         min-height: 50vh;
@@ -17,6 +57,7 @@ body{
         background-position: center;
         background-image: url("../img/jumbo-bg.png");
         padding: 50px;
+        margin-top: 80px;
     }
 
 #jumbo-1 img {
@@ -43,6 +84,22 @@ body{
     background-color:var(--notte);
 }
 
+
+
+.ps-footer {
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+.language img {
+    width: 20px;
+}
+
+.language span {
+    color: white;
+}
+
+
 /*Media*/
 .none-md{
     display:none;
@@ -63,3 +120,15 @@ body{
 }
 
 /*Effect*/
+#card .my-active:hover {
+    border: 2px solid rgb(0, 106, 255);
+    box-shadow: 0 0 0 0px white, 0 0 0 1.5px #0072CE;
+}
+
+.caro-item {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.caro-item:hover {
+    transform: translate(0, -5%);}
