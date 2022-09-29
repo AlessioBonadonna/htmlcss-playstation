@@ -19,16 +19,16 @@
 </head>
 
 <body>
-    <header>
-        <div class="bg-black h-50">
-            <div class="container-fluid d-flex justify-content-end "><img class="logo-sony col-1 p-2"
-                    src="./img/sony_logo.svg" alt="sony logo"></div>
-        </div>
+    <div class="bg-black ">
+        <div class="container-fluid d-flex justify-content-end "><img class="logo-sony col-1 p-2"
+                src="./img/sony_logo.svg" alt="sony logo"></div>
+    </div>
 
+    <header class="sticky-top">
+       
 
-        <nav class="navbar navbar-expand-lg bg-light flex-wrap pt-0 ">
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-xl navbar-light bg-white d-flex fs-5 fixed-top mt-5">
+       
+                <nav class="navbar navbar-expand-xl navbar-light bg-white d-flex fs-5 ">
                     <div class="container-fluid">
                
                             <a href="#" class="navbar-brand"><img src="./img/play_logo.svg" alt="PlayStation_logo"></a>
@@ -180,7 +180,7 @@
                    
                                 <li class="nav-item dropdown position-static">
                                     <a class="nav-link text-dark my_nav_hover" href="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">NovitÃ 
+                                        data-bs-toggle="dropdown" aria-expanded="false">Novit&agrave; 
                                       
                                         <span>
                                             <img src="./img/chevron-down-solid.svg" class="my_visible" alt="chevron-down-solid">
@@ -408,7 +408,7 @@
                     <div class="row">
                         <div class="col-6 col-sm-4 col-lg-2 p-4 ">
                             <div class="card caro-item">
-                                <img class="rounded-2" class=" w-100" src="./img/returnal-listing-thumb-01-ps5.jpg"
+                                <img class="rounded-2 my-active" class=" w-100" src="./img/returnal-listing-thumb-01-ps5.jpg"
                                     alt="">
                             </div>
                         </div>
@@ -463,34 +463,47 @@
                 </div>
                 <!--**********************************************************-->
                 <div class="row  mt-5  ">
-                    <div class="col-4 col-md ">
-                        <div class="card border-0 mb-3">
-                            <img class="rounded-2" class=" " src="./img/playstation-5-thumb.png" alt="ps5">
+                    <div class="col-4 col-md  my-acti my-active-2">
+                        <div class="active ">
+                        <img class="rounded-4" class=" " src="./img/playstation-5-thumb.png" alt="ps5">
+                        <div class="card-body  mb-3 ">
+
                             <p class="text-center none-md">Play Station 5</p>
                         </div>
                     </div>
-                    <div class="col-4 col-md border-0 ">
-                        <div class="card border-0">
-                            <img class="rounded-2" class=" " src="./img/joypad-thumb.png" alt="joypad">
-                            <p class="text-center none-md">Controller wirless DualSense<sup>TM</sup></p>
+                    </div>
+                    <div class="col-4 col-md my-acti my-active-2 ">
+                        <div class="active">
+                            <img class="rounded-4" class=" " src="./img/joypad-thumb.png" alt="joypad">
+                            <div class="card-body mb-3">
+                                  <p class="text-center none-md">Controller wirless DualSense<sup>TM</sup></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-4 col-md border-0 ">
-                        <div class="card border-0">
-                            <img class="rounded-2" class=" " src="./img/headset-thumb.png" alt="headset">
+                    <div class="col-4 col-md my-acti  my-active-2">
+                        <div class="active">
+                            <img class="rounded-4" class=" " src="./img/headset-thumb.png" alt="headset">
+                            <div class="card-body mb-3">
                             <p class="text-center none-md">Cuffie wireless con microfono PULSE3<sup>TM</sup></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-4 col-md border-0 ">
-                        <div class="card border-0">
-                            <img class="rounded-2" class=" " src="./img/remote-thumb.png" alt="remote">
-                            <p class="text-center none-md">Telecomando Media</p>
+                    <div class="col-4 col-md my-acti my-active-2 ">
+                        <div class="active">
+                            <img class="rounded-4" class=" " src="./img/remote-thumb.png" alt="remote">
+                            <div class="card-body mb-3">
+                                <p class="text-center none-md">Telecomando Media</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-4 col-md border-0 ">
-                        <div class="card border-0">
-                            <img class="rounded-2" class=" " src="./img/camera-thumb.jpg" alt="camera">
-                            <p class="text-center none-md">Fotecamera HD</p>
+                    <div class="col-4 col-md my-acti my-active-2 ">
+                        <div class="active">
+
+                            <img class="rounded-4" class=" " src="./img/camera-thumb.jpg" alt="camera">
+                            <div class="card-body mb-3">
+                                <p class="text-center none-md">Fotecamera HD</p>
+                            </div>
+                            
                         </div>
                     </div>
 
@@ -540,84 +553,84 @@
                 <div class="row">
                     <div class="col-6 col-md-4 col-lg-2">
                         <div class="card bg-dark  border-0">
-                            <img class="rounded-1" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
+                            <img class="rounded-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
                                 alt="tomy hawks pro">
                             <p class="mt-2">Tony Hawk's<sup>TM</sup> Pro Skater<sup>TM</sup> 1 + 2</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2">
                         <div class="card bg-dark border-0 ">
-                            <img class="" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                            <img class="rounded-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
                                 alt="crash-bandicoot-4-its-about-time-store-art">
                             <p class="mt-2">Crash Bandicoot 4: It's About Time</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2">
                         <div class="card bg-dark border-0 ">
-                            <img class="rounded-1" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
+                            <img class="rounded-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
                                 alt="tomy hawks pro">
                             <p class="mt-2">Tony Hawk's<sup>TM</sup> Pro Skater<sup>TM</sup> 1 + 2</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2">
                         <div class="card bg-dark  border-0">
-                            <img class="" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                            <img class="rounded-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
                                 alt="crash-bandicoot-4-its-about-time-store-art">
                             <p class="mt-2">Crash Bandicoot 4: It's About Time</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2">
                         <div class="card bg-dark border-0">
-                            <img class="rounded-1" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
+                            <img class="rounded-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
                                 alt="tomy hawks pro">
                             <p class="mt-2">Tony Hawk's<sup>TM</sup> Pro Skater<sup>TM</sup> 1 + 2</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2">
                         <div class="card bg-dark border-0">
-                            <img class="" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                            <img class="rounded-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
                                 alt="crash-bandicoot-4-its-about-time-store-art">
                             <p class="mt-2">Crash Bandicoot 4: It's About Time</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2">
                         <div class="card bg-dark border-0 ">
-                            <img class="rounded-1" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
+                            <img class="rounded-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
                                 alt="tomy hawks pro">
                             <p class="mt-2">Tony Hawk's<sup>TM</sup> Pro Skater<sup>TM</sup> 1 + 2</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2">
                         <div class="card bg-dark border-0 ">
-                            <img class="" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                            <img class="rounded-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
                                 alt="crash-bandicoot-4-its-about-time-store-art">
                             <p class="mt-2">Crash Bandicoot 4: It's About Time</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2">
                         <div class="card bg-dark border-0">
-                            <img class="rounded-1" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
+                            <img class="rounded-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
                                 alt="tomy hawks pro">
                             <p class="mt-2">Tony Hawk's<sup>TM</sup> Pro Skater<sup>TM</sup> 1 + 2</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2">
                         <div class="card bg-dark border-0 ">
-                            <img class="" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                            <img class="rounded-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
                                 alt="crash-bandicoot-4-its-about-time-store-art">
                             <p class="mt-2">Crash Bandicoot 4: It's About Time</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2 bg-dark">
                         <div class="card bg-dark  border-0">
-                            <img class="rounded-1" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
+                            <img class="rounded-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg"
                                 alt="tomy hawks pro">
                             <p class="bg-dark mb-0 py-1">Tony Hawk's<sup>TM</sup> Pro Skater<sup>TM</sup> 1 + 2</p>
                         </div>
                     </div>
                     <div class="col-6 col-md-4 col-lg-2">
                         <div class="card bg-dark border-0 ">
-                            <img class="" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                            <img class="rounded-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
                                 alt="crash-bandicoot-4-its-about-time-store-art">
                             <p class="mt-2">Crash Bandicoot 4: It's About Time</p>
                         </div>
@@ -642,13 +655,13 @@
                         </p>
                         <button class="btn btn-primary rounded-5"> Scopri di piu</button>
                     </div>
-                    <div class="col-12 col-md-4 ">
+                    <div class="col-12 col-md-4 my-3">
                         <img src="./img/double11-202010-tw-psvr.jpg" alt="vr">
                         <h3>PlayStation VR</h3>
                         <p class="text-secondary"> Oltre 500 titoli ed esperienze di gioco. scoprili tutti . </p>
                         <button class="btn btn-primary rounded-5"> Scopri di piu</button>
                     </div>
-                    <div class="col-12 col-md-4 ">
+                    <div class="col-12 col-md-4 my-3 ">
                         <img src="./img/dualshock-4-listing-thumb.jpg" alt="dualshock">
                         <h3>Accessori</h3>
                         <p class="text-secondary">Migliora la tua esperienza PS4 con una gamma di accessori ufficiali

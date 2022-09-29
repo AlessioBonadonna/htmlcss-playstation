@@ -6,6 +6,8 @@
 :root{
     --arancione:#CD3D0F;
     --notte:#161C3B;
+    --blue:#3A6DE7;
+
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -57,7 +59,7 @@ header .my_nav_hover:hover {
         background-position: center;
         background-image: url("../img/jumbo-bg.png");
         padding: 50px;
-        margin-top: 80px;
+       
     }
 
 #jumbo-1 img {
@@ -66,7 +68,9 @@ header .my_nav_hover:hover {
     
 }
 .btn-a{
-    background-color: #CD3D0F;
+    background-color: var(--arancione);
+    border:1px solid var(--arancione);
+
 }
  img {
     max-width: 100%;
@@ -132,3 +136,28 @@ header .my_nav_hover:hover {
 
 .caro-item:hover {
     transform: translate(0, -5%);}
+
+.btn-a:hover{
+    background-color:transparent;
+    border:1px solid var(--arancione)!important;
+    color:var(--arancione);
+    outline: 2px solid var(--arancione);
+}
+
+#ps5 .my-acti:hover {
+     border-bottom: 1px solid var(--blue);
+    
+   filter:opacity(1);
+}
+
+#ps5 .my-active-2 {
+    opacity: 70%;
+    cursor: pointer;
+    padding-bottom: 10px;
+   
+}
+
+#ps5 .my-active-2:hover {
+    opacity: 100%;
+    border-bottom: 2px solid var(--blue);
+}
