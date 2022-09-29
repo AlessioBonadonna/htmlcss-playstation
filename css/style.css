@@ -50,4 +50,13 @@ body{
     }
     
 }
+.none-sm{
+    display:block
+}
+@media screen and (max-width: 576px){
+    .none-sm{
+        display:none;
+    }
+}
+
 /*Effect*/
