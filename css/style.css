@@ -29,6 +29,18 @@ body{
  img {
     max-width: 100%;
 }
+
+#jumbo-2{
+    width: 100%;
+    min-height: 30vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    
+}
+
+
+/*Media*/
 .none-md{
     display:none;
 }
@@ -38,3 +50,4 @@ body{
     }
     
 }
+/*Effect*/
