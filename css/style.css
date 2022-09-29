@@ -5,6 +5,7 @@
 }
 :root{
     --arancione:#CD3D0F;
+    --notte:#161C3B;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -38,7 +39,9 @@ body{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     
 }
-
+#play-now{
+    background-color:var(--notte);
+}
 
 /*Media*/
 .none-md{
