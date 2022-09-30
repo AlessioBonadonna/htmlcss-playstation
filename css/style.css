@@ -69,9 +69,9 @@ header .my_nav_hover:hover {
 }
 .btn-a{
     background-color: var(--arancione);
-    border:1px solid var(--arancione);
+    border:1px solid var(--arancione);}
 
-}
+
  img {
     max-width: 100%;
 }
@@ -138,12 +138,13 @@ header .my_nav_hover:hover {
     transform: translate(0, -5%);}
 
 .btn-a:hover{
-    background-color:transparent;
-    border:1px solid var(--arancione)!important;
-    color:var(--arancione);
+    color: #fff;
+    border: 1px solid var(--arancione) !important;
     outline: 2px solid var(--arancione);
+    background-color: transparent;
+  
 }
-
+   
 #ps5 .my-acti:hover {
      border-bottom: 1px solid var(--blue);
     
@@ -160,4 +161,11 @@ header .my_nav_hover:hover {
 #ps5 .my-active-2:hover {
     opacity: 100%;
     border-bottom: 2px solid var(--blue);
+}
+
+
+#nuove-uscite .row .col-6:hover{
+   
+  margin-top: -10px;
+    
 }
